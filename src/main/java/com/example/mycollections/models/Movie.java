@@ -1,11 +1,11 @@
 package com.example.mycollections.models;
 
-public class Movies extends LibraryItem {
+public class Movie extends LibraryItem {
 
     private String director;
     private int runtime;
 
-    public Movies(String name, String director, int year, int runtime) {
+    public Movie(String name, String director, int year, int runtime) {
         super(name, year);
         this.director = director;
         this.runtime = runtime;

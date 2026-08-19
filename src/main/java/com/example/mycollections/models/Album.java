@@ -1,11 +1,11 @@
 package com.example.mycollections.models;
 
-public class Albums extends LibraryItem {
+public class Album extends LibraryItem {
 
     private String artist;
     private int tracks;
 
-    public Albums(String name, String artist, int year, int tracks) {
+    public Album(String name, String artist, int year, int tracks) {
         super(name, year);
         this.artist = artist;
         this.tracks = tracks;
